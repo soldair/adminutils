@@ -1,0 +1,21 @@
+to begin execute env.sh
+this spawns a shell with appropriate changes to your $PATH without changeing your local system at all
+
+execute install.sh to make the changes permanent
+	all this does is add the path to the bins to your users $PATH via ~/.bashrc
+
+commands are located in ./bin
+
+commands:
+	dwtf 
+		lists dirs with over 100M of used space
+		$1 is the dir to start looking at		
+
+	viwhich 
+		short cut for vim `which somescriptinaweirdplace`
+	
+	spawnfcgi.sh
+
+	fcgionly.sh
+
+	killfcginow.sh	
